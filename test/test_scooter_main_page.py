@@ -3,7 +3,7 @@ import pytest
 from page_objects.scooter_main_page import ScooterMainPage
 from data import Data
 
-class Test_Scooter_Main_Page:
+class TestScooterMainPage:
 
     @allure.title('Кликнуть по вопросу и узнать ответ')
     @allure.description('Когда нажимаешь на стрелочку, открывается соответствующий текст')
